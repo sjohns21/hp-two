@@ -1,0 +1,38 @@
+#loader {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+#loader img{
+  margin: auto;
+}
+.sec {
+  display: none;
+}
+body {
+  font-size: 3em;
+  font-family: avenir;
+  text-align: center;
+
+}
+header img {
+  width: 100%;
+}
+.header-grid {
+  font-size: .75em;
+  display: grid;
+  grid-template-columns: 85% 15%;
+  align-items: center;
+}
+.header-grid i{
+  font-size: 2em;
+}
+.welcome img{
+  width: 100%;
+}
+
+img {
+  border-radius: 20px;
+}
